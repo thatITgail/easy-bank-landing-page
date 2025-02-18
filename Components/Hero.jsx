@@ -3,9 +3,9 @@ import HeroImage from "../src/assets/images/image-mockups.png"
 export default function Hero(){
   return (
     <section className="relative hero bg-veryLightGray -z-10">
-      <div className="container flex flex-col-reverse px-6 mx-auto mt-8 overflow-hidden md:flex-row md:space-x-6 md:items-center">
-        <header className="flex flex-col mb-18 space-y-6 lg:w-1/2 lg:text-left">
-          <h1 className="max-w-sm mx-auto text-darkBlue text-4xl text-center font-bold lg:text-5xl md:text-left md:font-medium md:mx-0 md:mt-0">
+      <div className="container flex flex-col-reverse px-6 mx-auto mt-8 overflow-hidden md:flex-row md:space-x-6 md:items-center md:mt-0">
+        <header className="flex flex-col mb-18 mt-14 space-y-6 lg:w-1/2 lg:text-left md:max-w-sm">
+          <h1 className="mx-auto text-darkBlue text-4xl text-center font-bold lg:text-5xl md:text-left md:font-medium md:mx-0 md:mt-0">
           Next generation digital banking
         </h1>
         <p className="max-w-sm mx-auto text-grayishBlue text-center md:text-left md:mx-0">
